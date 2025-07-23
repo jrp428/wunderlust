@@ -8,11 +8,11 @@
 
 <body>
 <header>
+<a href="#main" id="skiplink">Skip to main content</a>
 <h1>Wunderlust Travel</h1>
-<!--edit responsive-->
 <img src="images/logo-S.png"
-srcset="images/logo-S.png 115w, images/logo-M.png 173w, images/logo-L.png 230w"
-sizes="(max-width: 675px) 100vw, (max-width: 900px) 50vw, 25vw"
+srcset="images/logo-S.png 320w, images/logo-M.png 780w, images/logo-L.png 1024w"
+sizes="(max-width: 675px) 100vw, (max-width: 900px) 66vw, 33vw"
 alt="Semi circular logo with a wave, two palm trees, and the sun as the background."
 >
 <h2>
@@ -26,13 +26,13 @@ Let Wunderlust Travel help you plan the trip of your dreams!
 </ul></nav>
 </header>
 
-<main>
+<main id="main">
     <section id="majorca">
         <h2>Majorca</h2>
         <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
-        <img src="images/majorca-waves-S.png" srcset="" sizes="" alt="">
-        <img src="images/majorca-beach-S.png" srcset="" sizes="" alt="">
-        <img src="images/majorca-cove-S.png" srcset="" sizes="" alt="">
+        <img src="images/majorca-waves-S.png" srcset="images/majorca-waves-S.png 320w, images/majorca-waves-M.png 780w, images/majorca-waves-L.png 1024w" sizes="(max-width: 675px) 100vw, (max-width: 900px) 66vw, 33vw" alt="A view of waves against a rocky shore">
+        <img src="images/majorca-beach-S.png" srcset="images/majorca-beach-S.png 320w, images/majorca-beach-M.png 780w, images/majorca-beach-L.png 1024w" sizes="(max-width: 675px) 100vw, (max-width: 900px) 66vw, 33vw" alt="A view of a beach">
+        <img src="images/majorca-cove-S.png" srcset="images/majorca-cove-S.png 320w, images/majorca-cove-M.png 780w, images/majorca-cove-L.png 1024w" sizes="(max-width: 675px) 100vw, (max-width: 900px) 66vw, 33vw" alt="A view of a cove from a distance">
     </section>
 
     <section id="plan">
@@ -93,27 +93,45 @@ Let Wunderlust Travel help you plan the trip of your dreams!
         <h2>Testimonials</h2>
 
         <h3>Miranda Blake</h3>
-        <!--responsive stuff here-->
-        <img src="images/miranda-blake-S.png" alt="">
-        <small>Traveling From: London, England</small>
-        <q>“Great escape from my reality. Beautiful sunsets, wonderful people, great beer. ”</q>
+        <img src="images/miranda-blake-S.png"
+        srcset="images/miranda-blake-S.png 320w, images/miranda-blake-M.png 780w, images/miranda-blake-L.png 1024w"
+        sizes="(max-width: 675px) 100vw, (max-width: 900px) 66vw, 33vw"
+        alt="Portrait picture of a woman (Miranda Blake)"
+        ><br>
+        <small>Traveling From: London, England</small><br>
+        <q>Great escape from my reality. Beautiful sunsets, wonderful people, great beer.</q>
 
-        <h3>Max Winter</h3>
-        <img src="images/max-winter-S.png" alt="">
-        <small>Traveling From: Berlin, Germany</small>
-        <q>“I traveled here for business, but my stay was extended. Now it is my home.”</q>
+        <h3>Max Winter</h3>        
+        <img src="images/max-winter-S.png"
+        srcset="images/max-winter-S.png 320w, images/max-winter-M.png 780w, images/max-winter-L.png 1024w"
+        sizes="(max-width: 675px) 100vw, (max-width: 900px) 66vw, 33vw"
+        alt="Portrait picture of a man (Max Winter)"
+        ><br>
+        <small>Traveling From: Berlin, Germany</small><br>
+        <q>I traveled here for business, but my stay was extended. Now it is my home.</q>
 
-        <h3>Inés Villegoes</h3>
-        <img src="images/ines-villegoes-S.png" alt="">
-        <small>Traveling From: Barcelona, Spain</small>
-        <q>“A very safe environment for all travelers.”</q>
 
-        <h3>Carmen Lorenzo</h3>
-        <img src="images/carmen-lorenzo-S.png" alt="">
-        <small>Traveling From: Madrid, Spain</small>
-        <q>“Live, laugh, love-- everything you need in Majorca.”</q>
+        <h3>Inés Villegoes</h3>        
+        <img src="images/ines-villegoes-S.png"
+        srcset="images/ines-villegoes-S.png 320w, images/ines-villegoes-M.png 780w, images/ines-villegoes-L.png 1024w"
+        sizes="(max-width: 675px) 100vw, (max-width: 900px) 66vw, 33vw"
+        alt="Portrait picture of a woman (Inés Villegoes)"
+        ><br>
+        <small>Traveling From: Barcelona, Spain</small><br>
+        <q>A very safe environment for all travelers.</q>
+
+        <h3>Carmen Lorenzo</h3>        
+        <img src="images/carmen-lorenzo-S.png"
+        srcset="images/carmen-lorenzo-S.png 320w, images/carmen-lorenzo-M.png 780w, images/carmen-lorenzo-L.png 1024w"
+        sizes="(max-width: 675px) 100vw, (max-width: 900px) 66vw, 33vw"
+        alt="Portrait picture of a woman (Carmen Lorenzo)"
+        ><br>
+        <small>Traveling From: Madrid, Spain</small><br>
+        <q>Live, laugh, love-- everything you need in Majorca.</q>
         
     </section>
+
+    <section id="about">
         <h2>About Your Destination</h2>
 
         <h3>Size</h3>
@@ -124,17 +142,83 @@ Let Wunderlust Travel help you plan the trip of your dreams!
         <path d="M13 10l-1.5 -1.5" />
         <path d="M10 13l-1.5 -1.5" />
         <path d="M7 16l-1.5 -1.5" />
-        </svg>
+        </svg><br>
         <small>Size: 1,405 miles squared</small>
 
-    <section id="about"></section>
+        <h3>Elevation</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-top-bar" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <line x1="12" y1="21" x2="12" y2="3" />
+        <path d="M15 6l-3 -3l-3 3" />
+        <line x1="9" y1="21" x2="15" y2="21" />
+        </svg><br>
+        <small>Elevation: 4,741 feet</small>
+
+        <h3>Location</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="11" r="3" />
+        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+        </svg> <br>      
+        <small>Location: Mediterranean</small>
+
+        <h3>Population</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="9" cy="7" r="4" />
+        <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+        <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+        </svg><br>
+        <small>Population: 923,608</small>
+    </section>
 
 
     <section id="contForm">
-    <form>
-    <h2>Contact Us</h2>
+        <form method="post">
+            <h2>Contact Us</h2>
+            <label for="fname">First Name</label>
+	        <input id="fname" name="First Name" type="text">
+            <label for="lname">Last Name</label>
+	        <input id="lname" name="Last Name" type="text">
 
-    </form>
+            <fieldset>
+            <legend>Contact Method</legend>
+	        <input id="prefmail" name="Preferred Contact" type="radio">
+            <label for="prefmail">Email</label>
+	        <input id="preftext" name="Preferred Contact" type="radio">
+            <label for="preftext">Text</label>
+	        <input id="prefcall" name="Preferred Contact" type="radio">
+            <label for="prefcall">Call</label>
+            </fieldset>
+            <label for="email">Email Address</label>
+	        <input id="email" name="Email" type="email">
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="tel" >
+            
+            <label for="destination">Destination</label>
+	        <select id="destination" name="Destination" class="input-select">
+                <option value="Barcelona">Barcelona</option>
+                <option value="Granada">Granada</option>
+                <option value="Ibiza">Ibiza</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Majorca">Majorca</option>
+                <option value="Seville">Seville</option>
+                <option value="Tenerife">Tenerife</option>
+                <option value="Valencia">Valencia</option>
+            </select>
+
+            <label for="season">Travel Time</label>
+	        <select id="season" name="season" class="input-select">
+                <option value="Fall">Fall</option>
+                <option value="Winter">Winter</option>
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Flexible">Flexible</option>
+            </select>
+
+            <input type="submit">
+        </form>
     </section>
 
 </main>
@@ -143,7 +227,6 @@ Let Wunderlust Travel help you plan the trip of your dreams!
 <p>Copyright 2021 Wunderlust</p>
 <p>Privacy Statement</p>
 <p>Terms of Service</p>
-
 </footer>
 
 </body>
