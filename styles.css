@@ -352,7 +352,35 @@ template {
 
 /*END OF RESET*/
 
+:root {
+  --yellow: #F6D64A;
+  --teal: #55BCD5;
+  --purple: #9B26B0;
+  --blue: #499BD2;
+  --dark-gray: #222222;
+  --light-gray: #EAEAEA;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /*Global*/
+#skip{
+  position: absolute;
+  left: -999px;
+  height: 0;
+  width: 0;
+}
+
+#skip:focus {
+  position: static;
+  left: auto;
+  height: auto;
+  width: auto;
+  color: var(--black);
+  padding: 0.5em;
+}
+
 
 /*Smallest*/
 
